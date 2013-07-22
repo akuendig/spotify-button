@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Spotify Button",
+  "description": "This extension adds spotify buttons.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.novaplanet.com/*"],
+      "css": ["mycss.css"],
+      "js": ["jquery-2.0.3.min.js", "myscript.js"]
+    }
+  ]
+}
